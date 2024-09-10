@@ -1,0 +1,6 @@
+@CabineImersivaApi_HostAddress = http://localhost:5249
+
+GET {{CabineImersivaApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###

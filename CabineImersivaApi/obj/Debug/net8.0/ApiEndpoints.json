@@ -1,0 +1,28 @@
+[
+  {
+    "ContainingType": "CabineImersivaApi.Controllers.UsuarioController",
+    "Method": "CadastrarUsuario",
+    "RelativePath": "Usuario/cadastroUsuario",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "usuario",
+        "Type": "CabineImersivaApi.DTO.UsuarioDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "CabineImersivaApi.Utils.RespostaPadrao",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  }
+]
